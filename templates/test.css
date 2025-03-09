@@ -1,0 +1,71 @@
+.card-tamp{
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+    justify-items: center;
+    border-radius: 35px;
+    padding: 12%;
+}
+
+.card-outline{
+
+    border-radius: 35px;
+    width: 100%;
+
+}
+
+.text{
+    align-items: center;
+    justify-content: center;
+    padding-left: 50px;
+    border: 20px solid #eaeaea;
+    background-color: #eaeaea;
+    width: 650px;
+    border-radius: 35px;
+    border-top-left-radius: 0;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    color: rgba(0, 0, 0, 0.726);
+    font-family: 'Open Sans';
+    font-size: 20px;
+    transition-property:width, color;
+    transition-duration: 1s;
+}
+
+.text2{
+    align-items: center;
+    justify-content: center;
+    text-align: right;
+    padding-right: 50px;
+    border: 20px solid #d8d0bd;
+    background-color: aliceblue;
+    width: 650px;
+    border-radius: 35px;
+    border-top-right-radius: 0;
+    right: -50px;
+    font-family: 'Open Sans';
+    font-size: 20px;
+    color: rgba(0, 0, 0, 0.726);
+    transition-property:width, color;
+    transition-duration: 1s;
+
+}
+
+.text2:hover{
+    width: 60%;
+    color:rgb(0, 0, 0) ;
+    // change text colour on hover?
+}
+.text:hover{
+    width: 60%;
+    color:rgb(0, 0, 0) ;
+
+}
+
+.card-outline{
+    background-image: url(https://blu.www.vaxvacationaccess.com/globalassets/suppliers/blu/images/2021/10-october/hnlws_sheraton-waikiki-hero-shot-infinity-pool.jpg);
+}
+.card-outline:hover{
+  //  maybe add some styling on hover?
+
+}
